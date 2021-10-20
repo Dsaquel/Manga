@@ -1,0 +1,66 @@
+body {
+    font-style: arial;
+    background-color: black;
+    color : white;
+    font-family:sans-serif
+}
+H1 {
+    font-size: 30px;
+    text-align: center;
+}
+strong{
+    font-weight: bold;
+}
+em{
+    font-style: italic;
+}
+
+p{
+    font-size: 25px;
+    padding: 20px;
+}
+
+video{
+    height: 200;
+}
+
+.video{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+H3, h5, h6{
+    font-size: 120%;
+    padding-right: 10px;
+    margin-top: 3%;
+}
+
+.musique{
+    text-align: right;
+    margin-bottom: 0%;
+    padding-bottom: 5px;
+}
+
+.taishou{
+    margin-left: 80%;
+}
+
+audio{
+    margin-left: 77%; 
+    padding-top: 2px;
+}
+
+.carte_article {
+    border-style: groove;
+    border-width: 3px;
+    border-color: #00acee;
+    width: 30%;
+    flex-direction: column;
+    padding:5px ;
+    margin: 20px;
+    display: inline-flex;
+    align-items: center;
+}
+img{
+    width: 200;
+}
